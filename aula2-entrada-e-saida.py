@@ -19,3 +19,20 @@ print(idade, "sem", decimal)
 
 #convertendo inteiros para string
 print(nome + str(idade))
+
+#usando input - formulário
+#viram objetos string
+campo = input('escreva seu nome: ')
+qnos = input('sua idade:')
+print(type(campo), type(qnos))
+
+
+numero1 = 27
+numero2 = 53
+
+resultado = numero1 + numero2
+print(resultado)
+
+quadrado = 10 ** 2
+raiz = 16 **(1/2)
+print(quadrado, raiz)
